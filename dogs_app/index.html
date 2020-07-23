@@ -15,6 +15,13 @@
 <body>
   <h1>Filtering Dogs!</h1>
 
+  <!-- grab from front end. need JS, not JSON -->
+  <form action="http://localhost:3001" method="GET">
+    <!-- name property is what param will be on back end (the key - the user input will be the value) -->
+    <input type="text" name="search">
+    <input type="submit" value="filter by name"> 
+  </form>
+
   <section></section>
 </body>
 </html>
